@@ -3,8 +3,14 @@
 <!-- config.xml reference: https://build.phonegap.com/docs/config-xml -->
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
+        id        = "com.harken.tradeatthefront"
+        version   = "1.1.0">
+<!-- different name for android store
+<widget xmlns     = "http://www.w3.org/ns/widgets"
+        xmlns:gap = "http://phonegap.com/ns/1.0"
         id        = "com.harken.tradeatthefrontapp"
         version   = "1.1.0">
+-->
 
     <name>Harken Trade-At-The-Front App</name>
 
