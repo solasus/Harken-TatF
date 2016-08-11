@@ -1,3 +1,4 @@
 /* CSS Document */
 html, body { background:#000 url(../res/background.jpg) center no-repeat; background-attachment:fixed; padding:0; margin:0; }
 .page { background:transparent url(../res/harken-logo.png) center no-repeat; background-attachment:fixed; padding:0; margin:0; }
+#appframe { background:#000000; }
