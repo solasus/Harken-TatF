@@ -10,7 +10,7 @@
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
         id        = "com.harken.tradeatthefrontapp"
-        version   = "1.1.5">
+        version   = "1.1.6">
  
 
     <name>Harken Trade-At-The-Front App</name>

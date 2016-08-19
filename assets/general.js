@@ -1,12 +1,10 @@
 jQuery( document ).ready(function( $ ) {
 	
-//	function loadFrame() {
-		var iframe = document.getElementById("appframe");
-		iframe.onload = function(){
-			iframe.contentWindow.cordova = window.cordova;
-		};
-		iframe.src = 'https://www.harken.com/apps/tradeapp/';
-//	}
+	var iframe = document.getElementById("appframe");
+	iframe.onload = function(){
+		iframe.contentWindow.cordova = window.cordova;
+	};
+	iframe.src = 'https://www.harken.com/apps/tradeapp/';
 
 	function pageSize() {
 		var pgWidth = $(window).width();
@@ -16,19 +14,15 @@ jQuery( document ).ready(function( $ ) {
 	}
 	pageSize();
 
-	function appSize() {
-		var pgWidth = $(window).width();
-		var pgHeight = $(window).height();
-		$('#appframe').css({'width':pgWidth+'px','height':pgHeight+'px'});
-//		loadFrame();
+	function fadeFrame() {
+		$('#appframe').css({'opacity':'1'});
 	}
-//	setTimeout(appSize, 3000);
+	setTimeout(fadeFrame, 3000);
 
 	var resizeId;
 	$(window).resize(function() {
 		clearTimeout(resizeId);
 		resizeId = setTimeout(pageSize, 150);
-		resizeId = setTimeout(appSize, 150);
 	}); 
 	
 });
