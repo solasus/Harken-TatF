@@ -4,7 +4,7 @@
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
         id        = "com.harken.tradeatthefront"
-        version   = "1.2.0">
+        version   = "1.1.2">
 
 <!-- different name for android store=
 <widget xmlns     = "http://www.w3.org/ns/widgets"
@@ -14,10 +14,10 @@
  -->
  
 	<gap:config-file platform="ios" parent="CFBundleShortVersionString">
-    	<string>120</string>
+    	<string>112</string>
     </gap:config-file>
     
-    <preference name="phonegap-version" value="cli-8.1.1" />
+    <preference name="phonegap-version" value="cli-6.5.0" />
 
     <name>Harken Trade-At-The-Front App</name>
 
@@ -34,8 +34,8 @@
     <!-- Customize your app and platform with the preference element. -->
     <preference name="orientation"                value="default" />        <!-- all: default means both landscape and portrait are enabled -->
     <preference name="target-device"              value="universal" />      <!-- all: possible values handset, tablet, or universal -->
-    <preference name="fullscreen"                 value="false" />           <!-- all: hides the status bar at the top of the screen -->
-    <preference name="webviewbounce"              value="true" />           <!-- ios: control whether the screen 'bounces' when scrolled beyond the top -->
+    <preference name="fullscreen"                 value="true" />           <!-- all: hides the status bar at the top of the screen -->
+    <preference name="webviewbounce"              value="false" />           <!-- ios: control whether the screen 'bounces' when scrolled beyond the top -->
     <preference name="prerendered-icon"           value="true" />           <!-- ios: if icon is prerendered, iOS will not apply it's gloss to the app's icon on the user's home screen -->
     <preference name="stay-in-webview"            value="true" />          <!-- ios: external links should open in the default browser, 'true' would use the webview the app lives in -->
     <preference name="ios-statusbarstyle"         value="black-opaque" />   <!-- ios: black-translucent will appear black because the PhoneGap webview doesn't go beneath the status bar -->
@@ -112,8 +112,12 @@
 	 
     <content src="index.html" />
     <access origin="*"/>
-    <allow-navigation href="https://www.harken.com/apps/*" />
-    <allow-navigation href="https://harken.com/apps/*" />
+    <allow-navigation href="http://harken.com/*" />
+    <allow-navigation href="http://*.harken.com/*" />
+    <allow-navigation href="http://www.harken.com/*" />
+    <allow-navigation href="https://harken.com/*" />
+    <allow-navigation href="https://*.harken.com/*" />
+    <allow-navigation href="https://www.harken.com/*" />
 
     <!-- Added the following intents to support the removal of whitelist code from base cordova to a plugin -->
     <!-- Whitelist configuration. Refer to https://cordova.apache.org/docs/en/edge/guide_appdev_whitelist_index.md.html -->
