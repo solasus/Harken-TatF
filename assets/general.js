@@ -1,9 +1,9 @@
 jQuery( document ).ready(function( $ ) {
 	
 	var iframe = document.getElementById("appframe");
-	iframe.onload = function(){
-		iframe.contentWindow.cordova = window.cordova;
-	};
+//	iframe.onload = function(){
+//		iframe.contentWindow.cordova = window.cordova;
+//	};
 	iframe.src = 'https://www.harken.com/apps/tradeapp/';
 
 	function pageSize() {
