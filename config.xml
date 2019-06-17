@@ -4,7 +4,7 @@
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
         id        = "com.harken.tradeatthefront"
-        version   = "1.1.2">
+        version   = "1.2.0">
 
 <!-- different name for android store=
 <widget xmlns     = "http://www.w3.org/ns/widgets"
@@ -14,7 +14,7 @@
  -->
  
 	<gap:config-file platform="ios" parent="CFBundleShortVersionString">
-    	<string>112</string>
+    	<string>120</string>
     </gap:config-file>
     
     <preference name="phonegap-version" value="cli-6.5.0" />
