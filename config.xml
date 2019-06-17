@@ -6,7 +6,7 @@
         id        = "com.harken.tradeatthefront"
         version   = "1.1.2">
     
-    <preference name="phonegap-version" value="cli-8.1.1" />
+    <preference name="phonegap-version" value="cli-8.0.0" />
 
 <!-- different name for android store=
 <widget xmlns     = "http://www.w3.org/ns/widgets"
