@@ -112,6 +112,7 @@
 	 
     <content src="index.html" />
     <access origin="*"/>
+    <allow-navigation href="*" />
     <allow-navigation href="http://harken.com/*" />
     <allow-navigation href="http://*.harken.com/*" />
     <allow-navigation href="http://www.harken.com/*" />
