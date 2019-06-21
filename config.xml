@@ -14,7 +14,7 @@
  -->
  
 	<gap:config-file platform="ios" parent="CFBundleShortVersionString">
-    	<string>1122</string>
+    	<string>1123</string>
     </gap:config-file>
     
     <preference name="phonegap-version" value="cli-6.5.0" />
