@@ -50,8 +50,6 @@
 
     <!-- Core plugins -->
     <plugin name="cordova-plugin-inappbrowser" />
-    <plugin name="cordova-plugin-openblank" />
-
 
     <!-- PLUGINS REMOVED
     <gap:plugin name="org.apache.cordova.battery-status" />
